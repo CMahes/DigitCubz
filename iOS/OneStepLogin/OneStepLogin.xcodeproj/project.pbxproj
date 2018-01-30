@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368A85B42020A581004E1BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A85B32020A581004E1BDD /* AppDelegate.swift */; };
+		368A85B62020A581004E1BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A85B52020A581004E1BDD /* ViewController.swift */; };
+		368A85B92020A581004E1BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368A85B72020A581004E1BDD /* Main.storyboard */; };
+		368A85BC2020A581004E1BDD /* OneStepLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 368A85BA2020A581004E1BDD /* OneStepLogin.xcdatamodeld */; };
+		368A85BE2020A581004E1BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368A85BD2020A581004E1BDD /* Assets.xcassets */; };
+		368A85C12020A581004E1BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368A85BF2020A581004E1BDD /* LaunchScreen.storyboard */; };
+		368A85CC2020A581004E1BDD /* OneStepLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A85CB2020A581004E1BDD /* OneStepLoginTests.swift */; };
+		368A85D72020A581004E1BDD /* OneStepLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A85D62020A581004E1BDD /* OneStepLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368A85C82020A581004E1BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368A85A82020A581004E1BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368A85AF2020A581004E1BDD;
+			remoteInfo = OneStepLogin;
+		};
+		368A85D32020A581004E1BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368A85A82020A581004E1BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368A85AF2020A581004E1BDD;
+			remoteInfo = OneStepLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368A85B02020A581004E1BDD /* OneStepLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A85B32020A581004E1BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		368A85B52020A581004E1BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		368A85B82020A581004E1BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368A85BB2020A581004E1BDD /* OneStepLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneStepLogin.xcdatamodel; sourceTree = "<group>"; };
+		368A85BD2020A581004E1BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368A85C02020A581004E1BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368A85C22020A581004E1BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368A85C72020A581004E1BDD /* OneStepLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A85CB2020A581004E1BDD /* OneStepLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepLoginTests.swift; sourceTree = "<group>"; };
+		368A85CD2020A581004E1BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368A85D22020A581004E1BDD /* OneStepLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A85D62020A581004E1BDD /* OneStepLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepLoginUITests.swift; sourceTree = "<group>"; };
+		368A85D82020A581004E1BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368A85AD2020A581004E1BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85C42020A581004E1BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85CF2020A581004E1BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368A85A72020A581004E1BDD = {
+			isa = PBXGroup;
+			children = (
+				368A85B22020A581004E1BDD /* OneStepLogin */,
+				368A85CA2020A581004E1BDD /* OneStepLoginTests */,
+				368A85D52020A581004E1BDD /* OneStepLoginUITests */,
+				368A85B12020A581004E1BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368A85B12020A581004E1BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368A85B02020A581004E1BDD /* OneStepLogin.app */,
+				368A85C72020A581004E1BDD /* OneStepLoginTests.xctest */,
+				368A85D22020A581004E1BDD /* OneStepLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368A85B22020A581004E1BDD /* OneStepLogin */ = {
+			isa = PBXGroup;
+			children = (
+				368A85B32020A581004E1BDD /* AppDelegate.swift */,
+				368A85B52020A581004E1BDD /* ViewController.swift */,
+				368A85B72020A581004E1BDD /* Main.storyboard */,
+				368A85BD2020A581004E1BDD /* Assets.xcassets */,
+				368A85BF2020A581004E1BDD /* LaunchScreen.storyboard */,
+				368A85C22020A581004E1BDD /* Info.plist */,
+				368A85BA2020A581004E1BDD /* OneStepLogin.xcdatamodeld */,
+			);
+			path = OneStepLogin;
+			sourceTree = "<group>";
+		};
+		368A85CA2020A581004E1BDD /* OneStepLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				368A85CB2020A581004E1BDD /* OneStepLoginTests.swift */,
+				368A85CD2020A581004E1BDD /* Info.plist */,
+			);
+			path = OneStepLoginTests;
+			sourceTree = "<group>";
+		};
+		368A85D52020A581004E1BDD /* OneStepLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				368A85D62020A581004E1BDD /* OneStepLoginUITests.swift */,
+				368A85D82020A581004E1BDD /* Info.plist */,
+			);
+			path = OneStepLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368A85AF2020A581004E1BDD /* OneStepLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A85DB2020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLogin" */;
+			buildPhases = (
+				368A85AC2020A581004E1BDD /* Sources */,
+				368A85AD2020A581004E1BDD /* Frameworks */,
+				368A85AE2020A581004E1BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneStepLogin;
+			productName = OneStepLogin;
+			productReference = 368A85B02020A581004E1BDD /* OneStepLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368A85C62020A581004E1BDD /* OneStepLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A85DE2020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLoginTests" */;
+			buildPhases = (
+				368A85C32020A581004E1BDD /* Sources */,
+				368A85C42020A581004E1BDD /* Frameworks */,
+				368A85C52020A581004E1BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368A85C92020A581004E1BDD /* PBXTargetDependency */,
+			);
+			name = OneStepLoginTests;
+			productName = OneStepLoginTests;
+			productReference = 368A85C72020A581004E1BDD /* OneStepLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368A85D12020A581004E1BDD /* OneStepLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A85E12020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLoginUITests" */;
+			buildPhases = (
+				368A85CE2020A581004E1BDD /* Sources */,
+				368A85CF2020A581004E1BDD /* Frameworks */,
+				368A85D02020A581004E1BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368A85D42020A581004E1BDD /* PBXTargetDependency */,
+			);
+			name = OneStepLoginUITests;
+			productName = OneStepLoginUITests;
+			productReference = 368A85D22020A581004E1BDD /* OneStepLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368A85A82020A581004E1BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Maheswaran;
+				TargetAttributes = {
+					368A85AF2020A581004E1BDD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					368A85C62020A581004E1BDD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 368A85AF2020A581004E1BDD;
+					};
+					368A85D12020A581004E1BDD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 368A85AF2020A581004E1BDD;
+					};
+				};
+			};
+			buildConfigurationList = 368A85AB2020A581004E1BDD /* Build configuration list for PBXProject "OneStepLogin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368A85A72020A581004E1BDD;
+			productRefGroup = 368A85B12020A581004E1BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368A85AF2020A581004E1BDD /* OneStepLogin */,
+				368A85C62020A581004E1BDD /* OneStepLoginTests */,
+				368A85D12020A581004E1BDD /* OneStepLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368A85AE2020A581004E1BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A85C12020A581004E1BDD /* LaunchScreen.storyboard in Resources */,
+				368A85BE2020A581004E1BDD /* Assets.xcassets in Resources */,
+				368A85B92020A581004E1BDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85C52020A581004E1BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85D02020A581004E1BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368A85AC2020A581004E1BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A85BC2020A581004E1BDD /* OneStepLogin.xcdatamodeld in Sources */,
+				368A85B62020A581004E1BDD /* ViewController.swift in Sources */,
+				368A85B42020A581004E1BDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85C32020A581004E1BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A85CC2020A581004E1BDD /* OneStepLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A85CE2020A581004E1BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A85D72020A581004E1BDD /* OneStepLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368A85C92020A581004E1BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368A85AF2020A581004E1BDD /* OneStepLogin */;
+			targetProxy = 368A85C82020A581004E1BDD /* PBXContainerItemProxy */;
+		};
+		368A85D42020A581004E1BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368A85AF2020A581004E1BDD /* OneStepLogin */;
+			targetProxy = 368A85D32020A581004E1BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368A85B72020A581004E1BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368A85B82020A581004E1BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		368A85BF2020A581004E1BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368A85C02020A581004E1BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368A85D92020A581004E1BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368A85DA2020A581004E1BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368A85DC2020A581004E1BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368A85DD2020A581004E1BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		368A85DF2020A581004E1BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStepLogin.app/OneStepLogin";
+			};
+			name = Debug;
+		};
+		368A85E02020A581004E1BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStepLogin.app/OneStepLogin";
+			};
+			name = Release;
+		};
+		368A85E22020A581004E1BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStepLogin;
+			};
+			name = Debug;
+		};
+		368A85E32020A581004E1BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y45YVK5YCM;
+				INFOPLIST_FILE = OneStepLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahes.OneStepLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStepLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368A85AB2020A581004E1BDD /* Build configuration list for PBXProject "OneStepLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A85D92020A581004E1BDD /* Debug */,
+				368A85DA2020A581004E1BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A85DB2020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A85DC2020A581004E1BDD /* Debug */,
+				368A85DD2020A581004E1BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A85DE2020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A85DF2020A581004E1BDD /* Debug */,
+				368A85E02020A581004E1BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A85E12020A581004E1BDD /* Build configuration list for PBXNativeTarget "OneStepLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A85E22020A581004E1BDD /* Debug */,
+				368A85E32020A581004E1BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		368A85BA2020A581004E1BDD /* OneStepLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				368A85BB2020A581004E1BDD /* OneStepLogin.xcdatamodel */,
+			);
+			currentVersion = 368A85BB2020A581004E1BDD /* OneStepLogin.xcdatamodel */;
+			path = OneStepLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 368A85A82020A581004E1BDD /* Project object */;
+}
